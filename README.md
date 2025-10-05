@@ -10,6 +10,8 @@ This SDK allows you to easily embed live Minecraft server widgets (cards, badges
 To use the SDK, you need an a Public API Token for your server.
 You can get it on your server management page at https://minecraftservers.ru.
 
+Описание работы API (RU): https://minecraftservers.ru/api
+
 ⚙️ Installation
 Add this script to your website (preferably before the closing </body> tag):
 ```html
@@ -63,7 +65,6 @@ data-height 150 -	Custom skeleton height
 
 🧠 Advanced (optional)
 Global configuration is available via:
-
 ```js
 window.MSRV.config = {
   swr: true // enable background revalidation globally
@@ -73,4 +74,15 @@ window.MSRV.config = {
 Manual fetch:
 ```js
 MSRV.fetch("YOUR_API_TOKEN").then(console.log);
+```
+Min-height before load
+```html
+<style>
+  [class^="msrv-"][data-token] { display:block; }
+  .msrv-card[data-token]   { min-height:196px; }
+  .msrv-banner[data-token] { min-height:120px; }
+  .msrv-row[data-token]    { min-height:60px;  }
+  .msrv-badge[data-token]  { min-height:32px;  }
+  .msrv-vote[data-token]   { min-height:96px;  }
+</style>
 ```

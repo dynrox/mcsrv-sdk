@@ -8,12 +8,22 @@
   <script src="https://minecraftservers.ru/sdk/v1.1.2/msrv-sdk.min.js" defer></script>
 </head>
 <body>
+<style>
+  [class^="msrv-"][data-token] { display:block; }
+  .msrv-card[data-token]   { min-height:196px; }
+  .msrv-banner[data-token] { min-height:120px; }
+  .msrv-row[data-token]    { min-height:60px;  }
+  .msrv-badge[data-token]  { min-height:32px;  }
+  .msrv-vote[data-token]   { min-height:96px;  }
+</style>
+
+  
   <h1>MSRV SDK demo</h1>
 
   <h2>Card</h2>
   <div class="msrv-card" data-token="exampletoken"></div>
 <hr />
-  <div class="msrv-card" data-token="exampletoken" data-url-enabled data-dark-theme="auto"></div>
+  <div class="msrv-card" data-token="exampletoken" data-url-enabled data-dark-theme="auto" data-lang="en"></div>
 <hr />
   <h2>Badge</h2>
   <div class="msrv-badge" data-token="exampletoken" data-eager></div>

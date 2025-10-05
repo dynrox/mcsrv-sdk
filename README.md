@@ -1,4 +1,4 @@
-# minecraftservers
+# mcsrv-sdk
 Widgets SDK based on MinecraftServers.ru API
 This SDK allows you to easily embed live Minecraft server widgets (cards, badges, banners, vote buttons, etc.) on your website without the need for sending unnecessary Query requests to your server
 

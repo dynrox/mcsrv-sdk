@@ -3,11 +3,16 @@ Widgets SDK based on MinecraftServers.ru API
 This SDK allows you to easily embed live Minecraft server widgets (cards, badges, banners, vote buttons, etc.) on your website without the need for sending unnecessary Query requests to your server
 
 🟢 Data fetching with caching (in-memory + localStorage)
+
 🟢 SWR (stale-while-revalidate) mode for background updates
+
 🟢 Light / Dark / Auto themes
+
 🟢 skeletons, and multi-language support (RU + EN)
 
+
 To use the SDK, you need an a Public API Token for your server.
+
 You can get it on your server management page at https://minecraftservers.ru.
 
 Описание работы API (RU): https://minecraftservers.ru/api

@@ -1,7 +1,7 @@
 # mcsrv-sdk
-Widgets SDK based on MinecraftServers.ru monitoring API
+Website widgets SDK based on minecraftservers.ru monitoring API
 
-This SDK allows you to easily embed widgets for minecraft server (cards, badges, banners, vote buttons, etc.) on your website without the need for sending unnecessary Query requests to your server
+That allows to easily use embed widgets for minecraft server (cards, badges, banners, vote buttons, etc.) on your website without need for sending unnecessary Query requests to your server
 
  Data fetching with caching (in-memory + localStorage)
 
@@ -14,7 +14,6 @@ This SDK allows you to easily embed widgets for minecraft server (cards, badges,
 
 To use the SDK, you need an a Public API Token for your server.
 
-You can get it on your server management page at https://minecraftservers.ru.
 
 Описание работы API (RU): https://minecraftservers.ru/api
 
